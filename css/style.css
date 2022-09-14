@@ -1,0 +1,319 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+dl, ol, ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+a,a:hover,a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+body {
+	background: #000000;
+	overflow-x: hidden;
+}
+
+
+/* PAGE CSS START HERE */
+
+
+/* =================
+   HEADER CSS START
+===================*/
+#header {
+	width:100%;
+	background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+}
+.secondary-navigation {
+	margin-left: auto;
+}
+.search-icon {
+	color: #ffffff;
+}
+.notification-icon {
+	color: #ffffff;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.browse {
+	color: #ffffff;
+}
+.dropdown .dropdown-toggle::after {
+	color: #ffffff;
+}
+.dropdown .btn {
+	padding: 0rem;
+}
+.dropdown-menu {
+	background: rgba(0, 0, 0, 0.8);
+	left: -50%;
+    right: unset;
+    transform: translateX(-25%);
+    min-width: 12rem;
+    border: 1px solid grey;
+    border-radius: 0px;
+}
+.dropdown-menu li {
+	margin-bottom: .5rem;
+	margin-left: 1rem;
+}
+.dropdown-menu li:last-child {
+	text-align: center;
+	border-top: 1px solid grey;
+	margin: 1rem 0rem 0rem;
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+.dropdown-menu li small {
+	width: 38px;
+	text-align: center;
+	display: inline-block;
+}
+.dropdown-menu li span {
+	padding-left: .5rem;
+}
+/* =================
+   HEADER CSS END
+===================*/
+
+
+/* =================
+   VIDEO CSS START
+===================*/
+.video-wrapper {
+	height: 100vh;
+}
+.seriesthumb {
+	left: 5%;
+	top: 16%;
+	max-width:650px;
+	z-index: 2;
+}
+.video-wrapper {
+	position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-wrapper video {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bannercta {
+	padding: .6rem 2.3rem;
+	color: #000000;
+	background-color:#ffffff;
+	border: 0px;
+	outline: none;
+	margin-top: 1%;
+	font-weight: bold;
+}
+.moreinfo {
+	background: #686872;
+	margin-left: 1rem;
+	color: #ffffff;
+}
+.playicon {
+	position: relative;
+	top: -2px;
+}
+.sound {
+	bottom: -200px;
+	right: 40px;
+	bottom: 35%;
+	z-index: 9;
+}
+
+/* =================
+   VIDEO CSS END
+===================*/
+
+/* =================
+   SLIDER CSS START
+===================*/
+.showswrapper {
+	margin-top: -230px;
+}
+.slick-prev {
+	left: 0px;
+	z-index:1;
+}
+.slick-next {
+	right: 0px;
+	z-index: 1000;
+	font-size: 200px;
+}
+.showsheading {
+	font-size: 1.2rem;
+	margin-left: 1.5rem;
+	position: relative;
+	display: table;
+	transition: all .6s ease-in-out;
+	padding-right: 4px;
+
+}
+.showsheading a {
+	color: #ffffff;
+}
+.slider {
+	margin: 0px -16px;
+}
+.explore {
+	position: absolute;
+	color: #54b9c5;
+	font-size: .9rem;
+	top: 50%;
+	transform: translate(0px,-8px);
+	right: 0px;
+	transition: all .6s ease-in-out;
+	opacity: 0;
+}
+.showsheading:hover .explore {
+	transform: translate(90px,-8px);
+	opacity: 1;
+}
+
+.slick-slide{
+	transition: all .3s ease-in-out;
+	overflow: visible;
+}
+.slick-list {
+	overflow: visible;
+}
+.slick-slide {
+	overflow: hidden;
+	z-index: 3;
+}
+.slick-slide:hover {
+	transform: scale(1.48);
+	transition: all .3s ease-in-out;
+	overflow: visible;
+}
+.slick-prev::before, .slick-next::before {
+    left: 1.2rem;
+    position: absolute;
+}
+.slick-prev::before {
+	content: '\2039';
+	z-index: 2;
+	line-height: 90px;
+	top: 0%;
+	transform: translateY(-50%);
+	font-size: 90px;
+	left: 40px;
+}
+.slick-next::before {
+	right: 1.2rem;
+	left: unset;
+	position: absolute;
+	font-size: 90px;
+	z-index: 2;
+	line-height: 90px;
+	content: '\203A';
+	top: 50%;
+	transform: translateY(-50%);
+}
+.slick-slide img {
+	border-radius: 10px;
+}
+.slick-dots {
+	right: 30px;
+	width: auto;
+	top: -28px;
+}
+.slick-dots li.slick-active button::before {
+	color: white;
+}
+/* =================
+   SLIDER CSS END
+===================*/
+
+
+
+/* =================
+   FOOTER CSS START
+===================*/
+footer {
+	background: #141414;
+	padding: 2rem;
+}
+.footer-content {
+	max-width: 980px;
+	margin: 0 auto;
+}
+.social-links {
+	justify-content: space-between;
+}
+.social-icon {
+	gap: 2rem;
+	margin-bottom: 1.5rem;
+}
+.footer-menu ul li {
+	padding-bottom: 1rem;
+	font-size: .9rem;
+}
+.service-code {
+    font-size: 11px;
+    margin-bottom: 20px;
+    padding: 0.5em;
+    background: transparent;
+    border: 1px solid grey;
+    color: grey;
+}
+.member-footer-copyright span {
+	font-size: 11px;
+	color: grey;
+}
+/* =================
+   FOOTER CSS END
+===================*/
+
+
+
+/* =================
+   MODAL CSS START
+===================*/
+.modal video {
+	width: 100%;
+}
+.btn-close {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+.modal-header {
+	padding: 0px;
+}
+.modal-dialog {
+	max-width: 80%;
+}
+.modal-close {
+    position: absolute;
+    right: 0px;
+    z-index: 9;
+    display: block;
+    background: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.btn-close {
+	top: 5px;
+	right: 5px;
+}
+.modalsound {
+	bottom: 10%;
+}
+/* =================
+   MODAL CSS END
+===================*/
+
+
