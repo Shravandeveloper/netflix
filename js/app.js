@@ -6,7 +6,7 @@ function loadpopup(){
 }
 function closepopup(){
     document.getElementById('loadpopup').style.visibility = 'hidden';
-    document.querySelector('body').style.overflow-y = 'scroll';
+    document.body.style.overflowY = 'scroll';
 }
 //PAGE LOAD POP UP CODE END
 
