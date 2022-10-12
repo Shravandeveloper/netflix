@@ -1,10 +1,14 @@
 
+//PAGE LOAD POP UP CODE START
+
 function loadpopup(){
   document.getElementById('loadpopup').style.visibility = 'visible';
 }
 function closepopup(){
     document.getElementById('loadpopup').style.visibility = 'hidden';
+    document.querySelector('body').style.overflow-y = 'scroll';
 }
+//PAGE LOAD POP UP CODE END
 
 $('document').ready(function(){
 

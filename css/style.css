@@ -355,4 +355,6 @@ footer {
 	position: relative;
 	margin: 0 auto;
 }
-
+body  {
+	overflow-y: hidden;
+}
