@@ -78,6 +78,26 @@ body {
 .dropdown-menu li span {
 	padding-left: .5rem;
 }
+.theme {
+	background: #ffffff;
+	padding: .5rem;
+	position: relative;
+	width: 50px;
+}
+.theme span {
+	position: absolute;
+	width: 100%;
+	display: block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.theme span ion-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
 /* =================
    HEADER CSS END
 ===================*/
@@ -316,4 +336,23 @@ footer {
    MODAL CSS END
 ===================*/
 
+#loadpopup {
+	background: rgba(0,0,0,.6);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	z-index: 3;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+}
+.loadwrap {
+	width: 728px;
+	position: relative;
+	margin: 0 auto;
+}
 

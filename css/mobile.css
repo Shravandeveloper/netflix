@@ -1,0 +1,29 @@
+@media (max-width:768px){
+.seriesthumb > img {
+	width:50%;
+}
+.seriesthumb p {
+	font-size: .8rem;
+}
+.bannercta {
+	padding: .2rem .5rem;
+	font-size: 11px;
+}
+.bannercta svg {
+	width: 11px;
+	height: 11px;
+}
+nav ul.d-flex{
+	display: block !important;
+	position: absolute;
+}
+.logo {
+ margin-right: 0px !important;
+}
+.children {
+	display:none ;
+}
+.logo img {
+	width: 70px;
+}
+}

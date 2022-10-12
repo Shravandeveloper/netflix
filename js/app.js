@@ -1,4 +1,11 @@
 
+function loadpopup(){
+  document.getElementById('loadpopup').style.visibility = 'visible';
+}
+function closepopup(){
+    document.getElementById('loadpopup').style.visibility = 'hidden';
+}
+
 $('document').ready(function(){
 
 // slider
