@@ -1,5 +1,5 @@
 
-//PAGE LOAD POP UP CODE START
+// PAGE LOAD POP UP CODE START
 
 function loadpopup(){
   document.getElementById('loadpopup').style.visibility = 'visible';
@@ -8,7 +8,18 @@ function closepopup(){
     document.getElementById('loadpopup').style.visibility = 'hidden';
     document.body.style.overflowY = 'scroll';
 }
-//PAGE LOAD POP UP CODE END
+
+// PAGE LOAD POP UP CODE END
+
+var switchmode = document.querySelector('.theme');
+var body = document.querySelector('body');
+
+switchmode.onclick = function(){
+  this.classList.toggle('themechange');
+  body.classList.toggle('dark');
+}
+
+
 
 $('document').ready(function(){
 

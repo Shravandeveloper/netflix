@@ -58,6 +58,7 @@ body {
     min-width: 12rem;
     border: 1px solid grey;
     border-radius: 0px;
+	margin-top: 8px;
 }
 .dropdown-menu li {
 	margin-bottom: .5rem;
@@ -349,12 +350,61 @@ footer {
 	justify-content: center;
 	align-items: center;
 	visibility: hidden;
+	z-index: 9999;
 }
 .loadwrap {
 	width: 728px;
 	position: relative;
 	margin: 0 auto;
+	
 }
 body  {
-	overflow-y: hidden;
+   overflow-y: hidden;
 }
+.theme span ion-icon.light-off { display: none;}
+
+.themechange span ion-icon.light-off { display: block;}
+.themechange span ion-icon.light-on { display: none;}
+
+
+/* CSS FOR DARK MODE START */
+.dark #header {
+ background-color: #ffffff;
+ background-image: linear-gradient(180deg,rgba(255,255,255,.7) 10%,transparent);
+}
+.dark #header nav ul li a {
+	color:#000000;
+}
+.dark .search-icon, .dark .notification-icon {
+	color:#000000
+}
+.dark .nav-element a {
+	color:#000000;
+}
+.dark .dropdown-menu {
+	background: rgba(255, 255, 255, 0.8);
+}
+.dark .dropdown .dropdown-toggle::after {
+	color:#000000;
+}
+.dark .bannercta {
+	background-color: #000000;
+	color:#ffffff;
+}
+.dark footer {
+	background-color: #ffffff;
+	color:#ffffff;
+}
+.dark .footer-menu ul li a {
+	color: #000000;
+}
+.dark .social-icon li a svg {
+	color: #000000;
+}
+.dark .service-code {
+	color:#000000;
+}
+.dark .member-footer-copyright span {
+	color:#000000;
+}
+/* CSS FOR DARK MODE END */
