@@ -253,6 +253,10 @@ body {
 .slick-dots li.slick-active button::before {
 	color: white;
 }
+.slick-dotted.slick-slider {
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+}
 /* =================
    SLIDER CSS END
 ===================*/
@@ -368,6 +372,12 @@ body  {
 
 
 /* CSS FOR DARK MODE START */
+.dark {
+	background: #000000;
+}
+.dark .video-wrapper {
+	background:#ffffff;
+}
 .dark #header {
  background-color: #ffffff;
  background-image: linear-gradient(180deg,rgba(255,255,255,.7) 10%,transparent);
@@ -390,6 +400,12 @@ body  {
 .dark .bannercta {
 	background-color: #000000;
 	color:#ffffff;
+}
+.dark .shows {
+	background: #ffffff;
+}
+.dark .showsheading * {
+	color:#000000;
 }
 .dark footer {
 	background-color: #ffffff;
