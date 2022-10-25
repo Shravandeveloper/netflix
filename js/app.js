@@ -44,7 +44,7 @@ function showPosition(data){
         // below .then will resolve the promise; return data
         .then((data) => {
             let weatherData = data.list[0].temp.day;
-            x.innerHTML = `${weatherData}\u00B0C + <div><img src="https://openweathermap.org/img/w/01d.png" alt="weather-icon"><div>`;     //    \u00B0 is code for degree symbol
+            x.innerHTML = `${weatherData}\u00B0C + <div class='wicon'><img src="https://openweathermap.org/img/w/01d.png" alt="weather-icon"><div>`;     //    \u00B0 is code for degree symbol
         });
 }
 
