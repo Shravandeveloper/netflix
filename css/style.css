@@ -99,6 +99,9 @@ body {
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
+#mylocation {
+	color: #ffffff;
+}
 /* =================
    HEADER CSS END
 ===================*/
@@ -421,6 +424,9 @@ body  {
 	color:#000000;
 }
 .dark .member-footer-copyright span {
+	color:#000000;
+}
+.dark #mylocation {
 	color:#000000;
 }
 /* CSS FOR DARK MODE END */
