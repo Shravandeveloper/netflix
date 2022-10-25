@@ -101,7 +101,14 @@ body {
 }
 #mylocation {
 	color: #ffffff;
+	position: relative;
 }
+.wicon {
+	position: absolute;
+    top: -12px;
+    right: -25px;
+}
+
 /* =================
    HEADER CSS END
 ===================*/
@@ -182,7 +189,6 @@ body {
 	display: table;
 	transition: all .6s ease-in-out;
 	padding-right: 4px;
-
 }
 .showsheading a {
 	color: #ffffff;
